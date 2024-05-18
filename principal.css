@@ -1,55 +1,64 @@
+body{    
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 p{
-    background-color: #d9d9d9;
-    height: 60vh;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 210%;
+}
+
+p + p {
+    margin-top: -30px; 
+}
+  
+.segundo{
+    text-align: center;
+    font-weight: 400;
+    font-size: 210%;
+}
+
+.v{
+    font-weight: 800;
+    text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 1000;
-    font-style: normal;
-    font-size: 250%;
-    border-radius: 20px;
+    text-transform: uppercase;
+    color: #545454;
 }
+
 h1{
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 1000;
-    font-style: normal;
     font-size: 170%;  
     color: #545454;
 }  
+
 img{
     width: 22px;
     height: 22px;
     margin: -5.8px;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    font-family: "League Spartan", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    padding: 2px;
+    font-weight: 600;
+    margin-bottom: 6%;
 }
 .menu li{
     display: inline-block;
-    margin: 0 5px;
+    margin: 6px;
 }
 .menu li a{
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     color: #545454;
-text-transform: uppercase;
-padding: 10px 15px;
-border-radius: 15px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
 }
 .menu li a:hover{
     background-color: rgba(100, 100, 100, 0.1);
